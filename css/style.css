@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+/* .section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.wrap-block {
+    color: #ffffff; 
+    font-weight: 700;
+    text-transform: uppercase;
+
+} */
+
+.section {
+    height: 100vh;
+    text-align: center;
+    width: 100%;
+    display: table;
+    /* background: url('../video/dog-love/Dog-Lovers.jpg') center no-repeat;
+    background-size: cover; */
+}
+
+.wrap-block {
+    display: table-cell;
+    vertical-align: middle;
+    color: #fff;
+}
